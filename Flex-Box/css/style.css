@@ -1,0 +1,710 @@
+.wrapper{
+width: 1920px;
+margin: 0 auto;
+}
+
+/*Header*/
+
+.header{
+display: flex;
+flex-direction: column;
+background-image: url(../img/Rectangle.png);
+height: 900px;
+}
+
+.Навигация {
+display: flex;
+flex-grow: 1;
+flex-direction:row;
+justify-content: flex-end; 
+padding-right: 405px;
+} 
+
+.Навигация > .ссылка{
+font-style: normal;
+font-family: Arial;
+padding: 40px 20px;
+list-style-type: none;
+letter-spacing:1px;
+}
+
+.ссылка > a{
+    color: #FFFFFF;
+    text-decoration: none; 
+}
+
+a:hover{
+    text-decoration:unset;
+    border-bottom:2px solid #fcf7f7;
+    padding-bottom: 64px;
+}
+
+div > .линия-1{
+    width: 1910px;
+    opacity: 0.5;
+    border: 1px solid #6e6b6b;
+}
+
+.Текст-Header{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.7;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .Текст-Header > .Текст-1{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Arial;
+    font-weight: 500;
+    letter-spacing:1px;
+}
+ 
+.Текст-Header > .Заголовок{
+    color: #FFFFFF;
+    font-size: 28px;
+    font-style: normal;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 800;
+}
+
+.Текст-Header > .Текст-2{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 500;
+    background: #4985FF;
+    border-radius: 30px;
+    padding: 0px 50px;
+    letter-spacing:1px;
+}
+
+/*.Контейнер-1*/
+
+.Контейнер-1 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.Контейнер-1 > .Огловление-1 {
+    text-align: center;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 53px;
+    color: #323232;
+    padding-top: 100px;
+}
+
+.Контейнер-1 > .Lorem-1{
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing:0.8px;
+    color: #999999;
+}
+
+.СозданиеСайтов{
+display: flex;
+flex-direction: row;
+list-style-type: none;
+align-items: center;
+justify-content: center;
+flex-wrap: nowrap;
+}
+
+.СозданиеСайтов > .Вектор-1{
+    border: 6px solid white;
+box-shadow: inset 0 0 0 1px #4985FF, 0 0 0 1px #E0E0E0;
+border-radius: 50%;
+padding: 20px;
+width: 45px;
+height: 45px;
+}
+
+.СозданиеСайтов > .Lorem-2{
+padding-right: 110px;
+}
+
+.СозданиеСайтов > li > h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px; 
+    padding-top: 40px;  
+    padding-left: 20px;
+}
+
+.СозданиеСайтов > li > p{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+color: #999999;
+margin: -23px auto;
+padding-left: 20px;
+}
+
+.Контейнер-1 > .Услуги{
+    display: flex;
+    justify-content: center;
+}
+
+ .Услуги > p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    background: #4985FF;
+    border-radius: 30px;
+    padding: 17px 75px;
+    margin-top: 50px;
+}
+
+/*.Контейнер-2*/
+
+.Контейнер-2{
+    display: flex;
+    flex-direction: column;
+    background: #F6F6F8;
+    height: 797px;
+    margin-top: 90px;
+}
+.Контейнер-2-2{
+    display: flex;
+    flex-direction: row;
+
+}
+.Контейнер-2-2 > .Огловление-2  {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-left: 405px;
+    padding-top: 152px;
+}
+
+.Контейнер-2-2 > .Картинка-1{
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-start;
+    padding-top: 100px;
+    padding-right: 220px;
+}
+
+.Огловление-2 > h2{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 53px;
+color: #323232;
+}
+
+.Огловление-2 > p{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+color: #999999;
+}
+
+.Огловление-2 > .Подробнее{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+text-decoration-line: underline;
+color: #4985FF;
+}
+
+.Контейнер-2-3{
+    display: flex;
+    flex-direction:column;
+}
+
+.Контейнер-2-3 > hr{
+    width: 1100px;
+    border: 1px solid #E0E0E0;
+    margin-top: 90px;
+}
+
+.Контейнер-2-4{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    width: 950px;
+    padding-left: 150px;
+}
+
+.Контейнер-2-4 > .Значёк {
+    display: flex;
+    align-items: center;
+    padding-right: 105px;
+}
+
+.Значёк > p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 30px;
+    color: #000000;
+    padding-left: 10px;
+    margin: 0px;
+}
+
+.projects {
+     display: flex;
+    align-items: center;
+    align-items: flex-start;
+    padding-right: 90px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #999999;
+    margin-bottom: 400px;
+}
+
+/*.Контейнер-3*/
+
+.Контейнер-3{
+ display: flex;     
+ flex-direction: row;
+ height: 980px;
+}
+
+.Контейнер-3-1{
+background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;    
+height: 490px;
+width: 100%;
+}
+
+.Контейнер-3-1 > .Оглавление-3{
+    display: flex;    
+    justify-content: space-around;
+    padding-top: 70px;
+}
+
+.Оглавление-3{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height:55px;
+color: #FFFFFF;
+padding-left: 275px;
+}
+
+.Оглавление-3 > p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #4985FF;
+    border-radius: 30px;
+    margin-right: 240px;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    padding: 10px 56px;
+}
+
+  .Контейнер-3-2{
+    display: flex;    
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.Картинка-3{
+    padding-left: 30px;
+}
+
+.Контейнер-3-3{
+    display: flex;    
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Контейнер-3-3 > .Текст-3 {
+    padding-left: 38px;
+    padding-right: 20px;
+}
+
+.Текст-3 > h3 >.цифра01{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #4985FF;
+}
+
+.Текст-3 > h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;  
+}
+
+.Текст-3 > .Lorem-3{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+color: #999999;
+}
+
+.Текст-3 > .Подробнее{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;    
+    text-decoration-line: underline;
+    color: #4985FF;
+}
+
+.Контейнер-3-1 > hr{
+    width: 1100px;
+    border: 1px solid #E0E0E0;
+    margin-top: 55px;
+}
+
+
+/*Контейнер-4*/
+
+.Контейнер-4{
+    display: flex;
+    flex-direction: column;
+    height: 776px;
+    background: #F6F6F8;
+    align-items: center;
+}
+
+.Контейнер-4-1 > h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 85px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #000000;
+}
+
+.Контейнер-4-1 > p{
+display: flex;
+padding-top: 40px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+color: #999999;
+}
+
+.Контейнер-4-2{
+display: flex;
+}
+
+.Контейнер-4-2 > .Картинка-4{
+padding: 70px 12px 0;
+}
+
+.Кнопка-4{
+margin-top: 40px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+background: #4985FF;
+border-radius: 30px;
+padding: 15px 56px;
+}
+
+/*Контейнер-5*/
+
+.Контейнер-5{
+    display: flex;
+    flex-direction: column;
+ height: 1140px;
+}
+
+.Контейнер-5-1{
+background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url(../img/Rectangle5.png);
+height: 570px;
+}
+
+ .Контейнер-5-1 > .Оглавление-5{
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+}
+
+.Оглавление-5 > h2{
+Font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 53px;
+text-align: center;
+color: #FFFFFF;
+padding-top: 60px;
+}
+
+.Оглавление-5 > p{
+Font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+margin-top: -10px;
+}
+
+.Оглавление-5 > .Кнопка-5{
+margin-top: -300px;
+}
+
+.Оглавление-5 > .Кнопка-5 > .Текст-5-3{
+display: inline-block;
+margin: 0px 0px 0px -90px;
+Font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+color: #FFFFFF;
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 200px;
+padding: 28px 50px 7px 110px;
+}
+
+.Контейнер-5-1 > hr{
+width: 1100px;
+border: 1px solid #E0E0E0;
+margin-top: 280px;
+}
+
+.Текст-5 {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #000000;
+padding-top: 80px;
+}
+
+.Текст-5 > p{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+color: #999999;
+padding-top: 20px;
+}
+
+.Текст-5-1{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 21px;
+text-align: center;
+color: #999999;
+background: #FFFFFF;
+border: 1px solid #F2F2F2;
+box-sizing: border-box;
+box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+border-radius: 30px;
+padding: 10px;
+margin: 40px 700px;
+}
+
+.Текст-5-1 > .E-mail{
+margin-right: 208px;
+}
+
+.Текст-5-1 > .Кнопка-5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+background: #4985FF;
+box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+border-radius: 0px 30px 30px 0px;
+padding: 12px 50px;
+margin-right: -20px;
+}
+
+.Текст-5-2{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 21px;
+text-align: center;
+color: #999999;
+}
+
+/*Footer*/
+
+footer{
+    display: flex;
+    height: 413px;
+    background: #F6F6F8;
+    flex-direction: column;
+}
+
+.Footer-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.Footer-1 > .Footer-nav1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 42px;    
+    color: #999999;
+    padding-right: 75px;
+    list-style-type: none;
+    letter-spacing: 1px;
+}
+
+.Footer-1 > .Footer-nav1 > .жирный{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 60px;
+    color: #000000;
+    letter-spacing: 1px;
+}
+
+.Footer-1 > .Footer-nav2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 42px;    
+    color: #999999;
+    padding-right: 75px;
+    list-style-type: none;
+    letter-spacing: 1px;
+}
+
+   .Footer-1 > .Footer-nav2 > .жирный{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 60px;
+    color: #000000;
+    letter-spacing: 1px;
+   }
+
+   .Footer-1 > .Footer-nav3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 42px;    
+    color: #999999;
+    padding-right: 75px;
+    list-style-type: none;
+    letter-spacing: 1px;
+}
+
+   .Footer-1 > .Footer-nav3 > .жирный{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 60px;
+    color: #000000;
+    letter-spacing: 1px;
+}
+
+   .Footer-1 > .Footer-nav4 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 42px;    
+    color: #999999;
+    padding-right: 75px;
+    list-style-type: none;
+    letter-spacing: 1px;
+}
+
+   .Footer-1 > .Footer-nav4 > .жирный{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 60px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.Линия-footer{
+     display: flex;
+   flex-direction:column;
+ }
+
+ .Линия-footer > hr{
+    width: 1200px;
+    border: 1px solid #E0E0E0;
+    margin-top: 30px;
+   }
+
+.Линия-footer > p{
+ font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 21px;
+text-align: center;
+color: #999999;
+padding-top: 12px;
+}
